@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="tv.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+</head> 
+<body>
+    <div id="container">
+        <div id="secondcontainer">
+            <div>]</div>
+           <div id="secondcon">
+               <div>]</div>
+              <center>
+                  <div id="hellopage" style="display: none;">
+                      <div><img src="img/circleblur.png" alt="" width="100%" height="350px" style="margin-top: -30px;"></div>
+                      <div id="ev">
+                       <p style="text-align: center; margin: 17%; color: #fff; font-size: 4em;">HELLO</p>
+                     <button class="btn btn-danger" style="margin-top:-28%;"><i class="fa fa-play"></i></button>
+                     <p style="text-align: center; margin-top: -10%; color: #fff; font-size: 5em;">WELCOME</p>
+                    </div>
+                  </div>
+              </center>
+
+              <center>
+                  <div id="maryannpage"  style="display: none;">
+                    <div><img src="img/circleblur.png" alt="" width="100%" height="350px" style="margin-top: -30px;"></div>
+                  <section>
+                      <div></div>
+                      <div>
+                      <audio src="audio/aud.mp3" ></audio>
+                    </div>
+                     <h1>    
+                      <span>M</span>
+                      <span>A</span>
+                      <span>R</span>
+                      <span>Y</span>
+                      <span>A</span>
+                      <span>N</span>
+                      <span>N</span>
+                    </h1>
+                  </section>
+               </div>
+                </center>
+                <div id="blue"style="display: none;">
+                    <div id="blueback" style="width: 608px;height: 355px; background-color: blue; margin-top: -243px; position: absolute;"></div>
+               </div>
+
+               <div id="allmenu"  style="display: none;"> 
+                   <div id="menu">
+                       <div class="scroll"></div>
+                   <div id="select">Select your Menu <br></div>
+                <div id="listofchannels">
+                    <ol>
+                        <li id="ntaNews"><a href="">NTA NEWS</a></li>
+                        <li id="aitNews"><a href="">AIT NEWS</a></li>
+                        <li id="channels"><a href="">CHANNELS TV</a></li>
+                        <li id="randB"><a href="">R $ B</a></li>
+                        <li id="trace"><a href="">TRACE MUSIC</a></li>
+                        <li id="african"><a href="">AFRICAN MAGIC</a></li>
+                        <li id="mbc2"><a href="">MBC 2</a></li>
+                        <li id="igbo"><a href="">IGBO TV</a></li>
+                        <!-- <li id="ntaNews"><a href="">R $ B</a></li>
+                        <li id="ntaNews"><a href="">TRACE MUSIC</a></li>
+                        <li id="ntaNews"><a href="">AFRICAN MAGIC</a></li>
+                        <li id="ntaNews"><a href="">MBC 2</a></li>
+                        <li id="ntaNews"><a href="">IGBO TV</a></li> -->
+                    </ol>
+                </div>
+            </div>
+               </div>
+             </div>
+           <button class="button btn btn-dark btn-sm" onclick="clickMe(value)" style="color: #fff; margin-left: 47%; background: none; border: none;"><i class="fa fa-power-off"></i></button>
+           <button class="button btn btn-dark btn-sm" onclick="clickMe(value)" style="color: #fff; margin-left: 11%; background: none; border: none;"><i class="fa fa-chevron-left"></i></button>
+           <button class="button btn btn-dark btn-sm" onclick="clickMe(value)" style="color: #fff; margin-left: -45%; background: none; border: none;"><i class="fa fa-chevron-right"></i></button>
+           <button class="button btn btn-dark btn-sm" onclick="clickMe(value)" style="color: #fff; margin-left: 45%; background: none; border: none;"><i class="fa fa-step-backward"></i></button>
+           <button class="button btn btn-dark btn-sm" onclick="clickMe(value)" style="color: #fff; margin-left: 33%; margin-top: -9%; background: none; border: none;"><i class="fa fa-fast-backward"></i></button>
+
+        </div>
+       
+        <div id="stand">
+          
+        </div>
+        <div id="remote">
+            <div class="btns">
+            <p>
+                <button class="buttons btn-danger" onclick="onTv(value)" style="color: #fff;" id="ontv"><i class="fa fa-power-off"></i></button>
+                <input type="button" value="" class="buttons" onclick="clickMe(value)" style="background-color:black">
+                <button class="buttons btn-primary" onclick="clickMe(value)" style="color: #fff;"><i class="fa fa-cog"></i></button>
+            </p>
+            <p>
+                <input type="button" value="1" class="buttons" onclick="clickMe(value)" style="background-color: rgb(59, 55, 55); color: #fff;">
+                <input type="button" value="2" class="buttons" onclick="clickMe(value)" style="background-color: rgb(59, 55, 55); color: #fff;">
+                <input type="button" value="3" class="buttons" onclick="clickMe(value)" style="background-color: rgb(59, 55, 55); color: #fff;">
+            </p>
+            <p>
+                <input type="button" value="5" class="buttons" onclick="clickMe(value)" style="background-color: rgb(59, 55, 55); color: #fff;">
+                <input type="button" value="6" class="buttons" onclick="clickMe(value)" style="background-color: rgb(59, 55, 55); color: #fff;">
+                <input type="button" value="7" class="buttons" onclick="clickMe(value)" style="background-color: rgb(59, 55, 55); color: #fff;">
+            </p>
+            <p>
+                <input type="button" value="8" class="buttons" onclick="clickMe(value)" style="background-color: rgb(59, 55, 55); color: #fff;">
+                <input type="button" value="0" class="buttons"onclick="clickMe(value)" style="background-color: rgb(59, 55, 55); color: #fff;">
+                <input type="button" value="9" class="buttons" onclick="clickMe(value)" style="background-color: rgb(59, 55, 55); color: #fff;">
+            </p>
+            <p>
+                    <button class="buttons btn-info" onclick="showMenu()" style="color: #fff;"><i class="fa fa-list-alt"></i></button>
+                    <button class="buttons btn-success" onclick="clickMe(value)" style="color: #fff;"><i class="fa fa-play-circle"></i></button>
+                    <button class="buttons btn-primary" onclick="clickMe(value)" style="color: #fff;"><i class="fa fa-ban"></i></button>
+            </p>
+            <p>
+                    <button class="buttons btn-danger" onclick="clickMe(value)" style="color: #fff;"><span class="fa fa-volume-mute"></span></button>
+                    <button class="buttons btn-dark" onclick="clickMe(value)" style="color: #fff;"><span class="fa fa-volume-down"></span></button>
+                    <button class="buttons btn-dark" onclick="clickMe(value)" style="color: #fff;"><span class="fa fa-volume-up"></span></button>
+            </p>
+            <p>
+                    <button class=" buttons btn-dark" onclick="clickMe(value)" style="color: #fff;"><i class="fa fa-pause"></i></button>
+                    <button class="buttons btn-dark" onclick="clickMe(value)" style="color: #fff;"><i class="fa fa-play"></i></button>
+                    <button class="buttons btn-dark" onclick="clickMe(value)" style="color: #fff;"><i class="fa fa-stop"></i></button>
+            </p>
+            <p>
+                    <button class="buttons btn-dark" onclick="clickMe(value)" style="color: #fff;"><i class="fa fa-step-backward"></i></button>
+                    <button class="buttons btn-dark" onclick="clickMe(value)" style="color: #fff;"><i class="fa fa-fast-backward"></i></button>
+                    <button class="buttons btn-dark" onclick="clickMe(value)" style="color: #fff;"><i class="fa fa-backward"></i></button>
+            </p>
+            <p>
+                    <button class="buttons btn-dark" id="upp" style="color: #fff;"><i class="fa fa-chevron-down"></i></button>
+                    <button class="buttons btn-dark" id="dowwn" style="color: #fff;"><i class="fa fa-chevron-up"></i></button>
+                    <button class="buttons btn-dark" onclick="clickMe(value)" style="color: #fff;"><i class="fa fa-toggle-on"></i></button>
+            </p>
+            <p>
+                    <button class="buttons btn-dark" onclick="clickMe(value)" style="color: #fff;"><i class="fa fa-chevron-left"></i></button>
+                    <button class="buttons btn-dark" onclick="clickMe(value)" style="color: #fff;"><i class="fa fa-chevron-right"></i></button>
+                    <button class="buttons btn-dark" onclick="clickMe(value)" style="color: #fff;"><i class="fa fa-eject"></i></button>
+            </p>
+            
+        </div>
+        </div>
+    </div>
+</body>
+ <script src="jquery/jquery.min.js"></script>
+ <script src="tv.js"></script>
+</html>
